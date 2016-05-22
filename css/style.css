@@ -1,0 +1,348 @@
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  margin: 0px;
+  background-color: #C8C9CB;
+}
+
+
+/* Nav */
+
+nav {
+  font-family: Quattrocento, sans-serif;
+  height: 100x;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.about {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.portfolio {
+  padding-top: 50px;
+  margin-top: -50px; 
+}
+
+nav ul li {
+  float: left;
+  list-style-type: none;
+}
+
+a:hover {
+    transition: 0.3s;
+  background-color: #111;
+  text-decoration: none;
+  color: #000;
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.glyp {
+  font-size: 18px;
+}
+
+
+/* Intro */
+
+#intro {
+  background: url('https://wallpaperscraft.com/image/waterfall_rocks_flowing_black_and_white_92253_2560x1024.jpg') no-repeat top center fixed;
+  background-size: cover;
+}
+
+.header {
+  font-size: 10px;
+  background-color: none;
+  padding: 160px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+
+/* Main */
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+
+/* CONTACT */
+
+#contact {
+  background: url('http://www.wallisme.com/wp-content/uploads/2016/02/Nature-HD-Wallpapers-Black-and-White-W28.jpg') no-repeat top center fixed;
+  background-size: cover;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  background-color: none;
+  padding: 110px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#text-style {
+  color: #fff;
+}
+
+.footer p {
+  margin-top: 10px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+
+/* Images */
+
+img {
+  opacity: 0.7;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+
+img:hover {
+  opacity: 1.0;
+  transition: opacity .4s ease-in-out;
+  -moz-transition: opacity .4s ease-in-out;
+  -webkit-transition: opacity .4s ease-in-out;
+}
+
+#img-me {
+  border: 2px solid #fff;
+  border-radius: 100px;
+  margin: 10px;
+  width: 150px;
+  heigth: 150px;
+}
+
+
+/* Type */
+
+.main h1,
+h2 {
+  font-family: 'Montserrat', serif;
+  color: #1a1a1a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Montserrat', serif;
+  font-size: 55px;
+  color: #1a1a1a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Montserrat', serif;
+  color: #1a1a1a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #000;
+  margin-bottom: 10px;
+}
+
+#indent {
+  text-indent: 50px;
+}
+
+#fontsmall {
+  font-variant: small-caps;
+}
+
+#fontcapital {
+  text-transform: uppercase;
+}
+
+#fontstyle {
+  font-style: italic;
+}
+
+
+/* Thumbnails */
+
+.content-section .thumbnail {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.content-section .thumbnail * {
+  transition: all .25s;
+}
+
+.content-section .thumbnail h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.content-section .thumbnail p {
+  line-height: 24px;
+}
+
+.content-section .thumbnail:hover h4,
+.content-section .thumbnail:hover p {
+  color: #AFAFAF;
+}
+
+.content-section .thumbnail:hover img {
+  opacity: 0.25;
+}
+
+.content-section .thumbnail:after {
+  font-family: 'FontAwesome';
+  content: '\f121';
+  color: #FFF;
+  font-size: 48px;
+  line-height: 80px;
+  top: 70%;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  transition: all .35s;
+  opacity: 0;
+  width: 86px;
+  height: 86px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  background: transparent;
+  border: 3px solid transparent;
+}
+
+
+/* Buttons */
+
+.btn.sharp {
+  border-radius: 0;
+}
+
+.social-cont {
+  max-width: 400px;
+}
+
+a.btn-default {
+  height: 44px;
+  border-radius: 0;
+  border: 0;
+  width: 180px;
+  text-align: left;
+  margin: 0 5px 10px 0;
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 10px;
+  transition: all .35s;
+  padding: 0;
+  line-height: 47px;
+  overflow: hidden;
+}
+
+a.btn-default i {
+  display: block;
+  float: left;
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  font-size: 24px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+a.btn-default span {
+  position: relative;
+  z-index: 1;
+  padding-left: 30px;
+}
+
+a.btn-default:after {
+  content: '';
+  display: block;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: all .35s;
+}
+
+a.twitter-btn:after {
+  background-color: #55ACEE;
+}
+
+a.github-btn:after {
+  background-color: #171515;
+}
+
+a.linkedin-btn:after {
+  background-color: #0077B5;
+}
+
+a.fcc-btn:after {
+  background-color: #4B2B0D;
+}
+
+a.btn-default:hover,
+a.btn-default:focus {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+a.btn-default:hover:after {
+  width: 100%;
+}
